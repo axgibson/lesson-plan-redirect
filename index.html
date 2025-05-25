@@ -30,23 +30,13 @@
     p {
       margin-bottom: 30px;
     }
-    select, button {
+    select {
       padding: 12px 16px;
       font-size: 1rem;
       border-radius: 8px;
       border: none;
       margin: 10px 0;
-    }
-    select {
       width: 250px;
-    }
-    button {
-      background-color: #ffbf00;
-      color: #000;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #e6ac00;
     }
   </style>
 </head>
@@ -54,27 +44,31 @@
   <img src="camp_creek_logo_resized.png" alt="Camp Creek Logo" class="logo" />
   <h1>Welcome to the Staff Submission Portal</h1>
   <p>Please select your name to access your lesson plan folder.</p>
-  
+
   <select id="userSelect">
     <option value="">-- Select Your Name --</option>
-    <option value="gibsona4@fultonschools.org">Adrian Gibson</option>
+    <option value="gibsona4@fultonschools.org">Mr. Gibson</option>
+    <option value="smithj@fultonschools.org">Ms. Smith</option>
+    <option value="johnsonm@fultonschools.org">Mr. Johnson</option>
+    <option value="brownk@fultonschools.org">Ms. Brown</option>
+    <option value="leew@fultonschools.org">Mr. Lee</option>
   </select>
-  <br />
-  <button onclick="goToFolder()">Submit</button>
 
   <script>
     const folderMap = {
-      "gibsona4@fultonschools.org": "https://fultonk12-my.sharepoint.com/:f:/g/personal/gibsona4_fultonschools_org/EnPi44CzjeJKukkA4WwDdKIB1za6bnzRAVcU2N0D9ESafw?e=3y8tgZ"
+      "gibsona4@fultonschools.org": "https://sharepoint.com/gibson-folder",
+      "smithj@fultonschools.org": "https://sharepoint.com/smith-folder",
+      "johnsonm@fultonschools.org": "https://sharepoint.com/johnson-folder",
+      "brownk@fultonschools.org": "https://sharepoint.com/brown-folder",
+      "leew@fultonschools.org": "https://sharepoint.com/lee-folder"
     };
 
-    function goToFolder() {
-      const email = document.getElementById("userSelect").value;
+    document.getElementById("userSelect").addEventListener("change", function () {
+      const email = this.value;
       if (folderMap[email]) {
         window.location.href = folderMap[email];
-      } else {
-        alert("Please select your name from the list.");
       }
-    }
+    });
   </script>
 </body>
 </html>
