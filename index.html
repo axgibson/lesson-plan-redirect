@@ -54,16 +54,19 @@ a.support-link:hover {
 <body>
   <img src="Inverted-Shield.png" alt="Camp Creek Logo" class="logo" />
   <h1>Welcome to the Staff Submission Portal</h1>
-  <p>Please select your name to access your lesson plan folder.</p>
-  
-  <select id="userSelect">
-    <option value="">-- Select Your Name --</option>
-    <option value="gibsona4@fultonschools.org">Mr. Gibson</option>
-    <option value="smithj@fultonschools.org">Ms. Smith</option>
-    <option value="johnsonm@fultonschools.org">Mr. Johnson</option>
-    <option value="brownk@fultonschools.org">Ms. Brown</option>
-    <option value="leew@fultonschools.org">Mr. Lee</option>
-  </select>
+ <p>Please select your name to access your lesson plan folder.</p>
+
+<label for="userSelect" style="font-weight: bold; display: block; margin-bottom: 8px;">
+  Teacher Name:
+</label>
+<select id="userSelect">
+  <option value="" disabled selected>-- Select Your Name --</option>
+  <option value="gibsona4@fultonschools.org">Mr. Gibson</option>
+  <option value="smithj@fultonschools.org">Ms. Smith</option>
+  <option value="johnsonm@fultonschools.org">Mr. Johnson</option>
+  <option value="brownk@fultonschools.org">Ms. Brown</option>
+  <option value="leew@fultonschools.org">Mr. Lee</option>
+</select>
 
   <script>
     const folderMap = {
