@@ -18,29 +18,35 @@
 </label>
 <select id="userSelect">
   <option value="" disabled selected>-- Select Your Name --</option>
-  <option value="gibsona4@fultonschools.org">Mr. Gibson</option>
-  <option value="smithj@fultonschools.org">Ms. Smith</option>
-  <option value="johnsonm@fultonschools.org">Mr. Johnson</option>
-  <option value="brownk@fultonschools.org">Ms. Brown</option>
-  <option value="leew@fultonschools.org">Mr. Lee</option>
 </select>
 
   <script>
-    const folderMap = {
-      "gibsona4@fultonschools.org": "https://sharepoint.com/gibson-folder",
-      "smithj@fultonschools.org": "https://sharepoint.com/smith-folder",
-      "johnsonm@fultonschools.org": "https://sharepoint.com/johnson-folder",
-      "brownk@fultonschools.org": "https://sharepoint.com/brown-folder",
-      "leew@fultonschools.org": "https://sharepoint.com/lee-folder"
-    };
+  const folderMap = {};
+  const userSelect = document.getElementById("userSelect");
 
-    document.getElementById("userSelect").addEventListener("change", function () {
-      const email = this.value;
-      if (folderMap[email]) {
-        window.location.href = folderMap[email];
-      }
+  fetch('teachers.json')
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(teacher => {
+        const option = document.createElement("option");
+        option.value = teacher.email;
+        option.textContent = teacher.name;
+        folderMap[teacher.email] = `https://sharepoint.com/${teacher.name.toLowerCase().replace(/\s+/g, '-')}-folder`;
+        userSelect.appendChild(option);
+      });
+    })
+    .catch(error => {
+      console.error("Error loading teachers:", error);
     });
-  </script>
+
+  userSelect.addEventListener("change", function () {
+    const email = this.value;
+    if (folderMap[email]) {
+      window.location.href = folderMap[email];
+    }
+  });
+</script>
+
   <p style="margin-top: 20px;">
   <a href="mailto:gibsona4@fultonschools.org" class="support-link">
     Don't see your name? Click here to email Mr. Gibson
