@@ -20,11 +20,13 @@
   <option value="" disabled selected>-- Select Your Name --</option>
 </select>
  <script>
-  // Load teacher list and set up redirects based on folder links
   fetch('teachers.json')
     .then(response => response.json())
     .then(data => {
       const select = document.getElementById("userSelect");
+
+      // Sort the list alphabetically by name (already in Last, First format)
+      data.sort((a, b) => a.name.localeCompare(b.name));
 
       data.forEach(teacher => {
         const option = document.createElement("option");
