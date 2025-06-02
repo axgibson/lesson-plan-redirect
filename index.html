@@ -20,16 +20,7 @@
   <option value="" disabled selected>-- Select Your Name --</option>
 </select>
  <script>
-  // Folder mapping
-  const folderMap = {
-    "gibsona4@fultonschools.org": "https://sharepoint.com/gibson-folder",
-    "smithj@fultonschools.org": "https://sharepoint.com/smith-folder",
-    "johnsonm@fultonschools.org": "https://sharepoint.com/johnson-folder",
-    "brownk@fultonschools.org": "https://sharepoint.com/brown-folder",
-    "leew@fultonschools.org": "https://sharepoint.com/lee-folder"
-  };
-
-  // Populate the dropdown dynamically
+  // Load teacher list and set up redirects based on folder links
   fetch('teachers.json')
     .then(response => response.json())
     .then(data => {
@@ -37,21 +28,20 @@
 
       data.forEach(teacher => {
         const option = document.createElement("option");
-        option.value = teacher.email;
+        option.value = teacher.folder;
         option.textContent = teacher.name;
         select.appendChild(option);
       });
-    });
 
-  // Handle user selection
-  document.getElementById("userSelect").addEventListener("change", function () {
-    const email = this.value;
-    if (folderMap[email]) {
-      window.location.href = folderMap[email];
-    } else {
-      alert("Sorry, we couldn't find your folder. Please contact Mr. Gibson.");
-    }
-  });
+      select.addEventListener("change", function () {
+        const folderUrl = this.value;
+        if (folderUrl) {
+          window.location.href = folderUrl;
+        } else {
+          alert("Sorry, we couldn't find your folder. Please contact Mr. Gibson.");
+        }
+      });
+    });
 </script>
   <p style="margin-top: 20px;">
   <a href="mailto:gibsona4@fultonschools.org" class="support-link">
