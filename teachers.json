@@ -1,7 +1,217 @@
 [
-  { "name": "Mr. Gibson", "email": "gibsona4@fultonschools.org" },
-  { "name": "Ms. Smith", "email": "smithj@fultonschools.org" },
-  { "name": "Mr. Johnson", "email": "johnsonm@fultonschools.org" },
-  { "name": "Ms. Brown", "email": "brownk@fultonschools.org" },
-  { "name": "Mr. Lee", "email": "leew@fultonschools.org" }
+  {
+    "name": "Millington-Motley, Simone",
+    "email": "millingtonms@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=n78srf&CID=2e6104c4%2Da7e8%2D47f4%2Daec1%2D85e34f00f03e&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FCTAE"
+  },
+  {
+    "name": "Graves, Tafia",
+    "email": "gravest1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=n78srf&CID=2e6104c4%2Da7e8%2D47f4%2Daec1%2D85e34f00f03e&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FCTAE"
+  },
+  {
+    "name": "McKoy, Stephen",
+    "email": "mckoys@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=n78srf&CID=2e6104c4%2Da7e8%2D47f4%2Daec1%2D85e34f00f03e&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FCTAE"
+  },
+  {
+    "name": "Smith, Janekeenia",
+    "email": "smithj39@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Henry, Janine",
+    "email": "henryj@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Harris, Joseph",
+    "email": "harrisj13@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Robinson, Brenda",
+    "email": "robinsonb1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Gilliam, Tereon",
+    "email": "gilliamt@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Hall, Angelisa",
+    "email": "halla5@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Freeman, Shani-Buchanan",
+    "email": "buchanans@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Johnson, Jazmyn",
+    "email": "johnsonj30@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Leggett, Tangela",
+    "email": "leggettt@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=efYJWj"
+  },
+  {
+    "name": "Freeman, Tamika",
+    "email": "freemant2@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=mo5Br5&CID=47631cb3%2Dd2f2%2D4f52%2Db850%2D9b1d21824cad&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FFine%20Arts"
+  },
+  {
+    "name": "Seawright, Patricia",
+    "email": "seawrightp@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/Health%20%26%20PE?csf=1&web=1&e=4cwlcE"
+  },
+  {
+    "name": "Greogory, Stephen",
+    "email": "gregorys1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/Health%20%26%20PE?csf=1&web=1&e=4cwlcE"
+  },
+  {
+    "name": "Bailey, Jessica",
+    "email": "baileyj7@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Cade, Sequoia",
+    "email": "cades@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Emerson, Shelia",
+    "email": "emersons@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Afoakwah, Candace",
+    "email": "afoakwahc@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Anthony, Kinnel",
+    "email": "kinnela@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Karen, Johnson",
+    "email": "johnsonk3@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Smith, Mark",
+    "email": "smithm10@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=riJ8bG&CID=eadcaa47%2Da101%2D4dc6%2Dbf14%2D42cf33b43508&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FMath"
+  },
+  {
+    "name": "Wright, Annilia",
+    "email": "wrighta8@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KHwzcp&CID=fa954eed%2D51e2%2D447d%2D84fa%2D5342f83582ba&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FScience"
+  },
+  {
+    "name": "Alexander-Carter, Dagmah",
+    "email": "alexanderd@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KHwzcp&CID=fa954eed%2D51e2%2D447d%2D84fa%2D5342f83582ba&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FScience"
+  },
+  {
+    "name": "Cole, Neil",
+    "email": "colen@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KHwzcp&CID=fa954eed%2D51e2%2D447d%2D84fa%2D5342f83582ba&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FScience"
+  },
+  {
+    "name": "Belser, Dionne",
+    "email": "belser@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KHwzcp&CID=fa954eed%2D51e2%2D447d%2D84fa%2D5342f83582ba&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FScience"
+  },
+  {
+    "name": "Parker, Teryon",
+    "email": "parkert9@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=KHwzcp&CID=fa954eed%2D51e2%2D447d%2D84fa%2D5342f83582ba&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FScience"
+  },
+  {
+    "name": "McCoy, Brittany",
+    "email": "mccoyb@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "McCoy, Carolyn",
+    "email": "mccoyc1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Thomas, Rashad",
+    "email": "thomasr4@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Worrell, Fredrick",
+    "email": "worrellf@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Jackson, Jaqueline",
+    "email": "jacksonjy@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Williams, Yolanda",
+    "email": "williamsy1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Crittendon, Shelby",
+    "email": "crittentons@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Carter, Janice",
+    "email": "carterjd@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Morrow, Carmen",
+    "email": "morrowc1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=qxKQbi&CID=90de273c%2Dea41%2D47c2%2D9ff3%2D854b9878a2ca&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSEC"
+  },
+  {
+    "name": "Edmond, Tonia",
+    "email": "edmondts@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=ujTBeF&CID=836438f3%2D46da%2D4a55%2D8bb1%2D8b3c4fbd2a7b&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSocial%20Studies"
+  },
+  {
+    "name": "Gray, Leon",
+    "email": "grayll1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=ujTBeF&CID=836438f3%2D46da%2D4a55%2D8bb1%2D8b3c4fbd2a7b&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSocial%20Studies"
+  },
+  {
+    "name": "Hart, Makaiya",
+    "email": "hartm@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=ujTBeF&CID=836438f3%2D46da%2D4a55%2D8bb1%2D8b3c4fbd2a7b&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSocial%20Studies"
+  },
+  {
+    "name": "Lang, LaShaun",
+    "email": "langl@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=ujTBeF&CID=836438f3%2D46da%2D4a55%2D8bb1%2D8b3c4fbd2a7b&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSocial%20Studies"
+  },
+  {
+    "name": "Thomas, Chemily",
+    "email": "thomasc13@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/sites/ms_campcreek_staffhub/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=ujTBeF&CID=836438f3%2D46da%2D4a55%2D8bb1%2D8b3c4fbd2a7b&FolderCTID=0x012000725A6392AF28D145BEC0F840395B063A&id=%2Fsites%2Fms%5Fcampcreek%5Fstaffhub%2FShared%20Documents%2FLesson%20Plans%2FSocial%20Studies"
+  },
+  {
+    "name": "Brock, Francys",
+    "email": "brockf@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/World%20Languages?csf=1&web=1&e=eHRHOR"
+  },
+  {
+    "name": "Mokli, Jean",
+    "email": "mokli@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/ms_campcreek_staffhub/Shared%20Documents/Lesson%20Plans/World%20Languages?csf=1&web=1&e=eHRHOR"
+  }
 ]
