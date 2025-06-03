@@ -35,25 +35,15 @@
         select.appendChild(option);
       });
 
-     select.addEventListener("change", function () {
+    select.addEventListener("change", function () {
   const folderUrl = this.value;
-  const selectedText = this.options[this.selectedIndex].textContent;
-
-  const message = document.createElement("p");
-  message.style.marginTop = "20px";
-  message.style.fontWeight = "bold";
-  message.style.color = "#333";
-  message.textContent = `Hi ${selectedText}, you're being redirected to your content area folder. You can view all teacher folders, but only edit your own.`;
-  document.body.appendChild(message);
-
-  setTimeout(() => {
-    if (folderUrl) {
-      window.location.href = folderUrl;
-    } else {
-      alert("Sorry, we couldn't find your folder. Please contact Mr. Gibson.");
-    }
-  }, 3000); // Waits 3 seconds before redirect
+  if (folderUrl) {
+    window.location.href = folderUrl;
+  } else {
+    alert("Sorry, we couldn't find your folder. Please contact Mr. Gibson.");
+  }
 });
+
 
 </script>
   <p style="margin-top: 20px;">
