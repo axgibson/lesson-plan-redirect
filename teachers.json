@@ -39,12 +39,7 @@
     "email": "smithj39@fultonschools.org",
     "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
   },
-  {
-    "name": "Henry, Janine",
-    "email": "henryj@fultonschools.org",
-    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-  },
-  {
+   {
     "name": "Harris, Joseph",
     "email": "harrisj13@fultonschools.org",
     "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
@@ -227,36 +222,51 @@
   {
     "name": "Millsap, Sacajawea",
     "email": "millsaps2@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
   },
   {
-    "name": "Blount, Katie",
+    "name": "Blount, Katie (Science)",
+    "email": "blountk@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
+  },
+    {
+    "name": "Blount, Katie (Social Studies)",
     "email": "blountk@fultonschools.org",
     "folder": 0
   },
   {
-    "name": "Buncome, Avril",
+    "name": "Buncome, Avril (Science)",
     "email": "buncomea@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
+  },
+   {
+    "name": "Buncome, Avril (Social Studies)",
+    "email": "buncomea@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
   },
   {
     "name": "Pullins, Lori",
     "email": "pullinsla@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
   },
   {
     "name": "Anderson, Monica",
     "email": "andersonm8@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
   },
   {
-    "name": "West, Norman",
+    "name": "West, Norman (Science)",
     "email": "westn1@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
+  },
+   {
+    "name": "West, Norman (Social Studies)",
+    "email": "westn1@fultonschools.org",
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
   },
   {
     "name": "Leonard, Lisa",
     "email": "leonardl1@fultonschools.org",
-    "folder": 0
+    "folder": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
   }
 ]
