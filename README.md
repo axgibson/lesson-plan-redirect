@@ -11,7 +11,7 @@ This GitHub Pages project sends staff members to the correct SharePoint lesson p
 
 ## Phase 2 Data Structure
 
-The teacher list is now easier to maintain because folder links are stored once in the `folders` section, and each teacher is assigned to a `folderId`.
+The teacher list is now easier to maintain because folder links are stored once in the `folders` irrtion, and each teacher is assigned to a `folderId`.
 
 Example:
 
@@ -37,14 +37,14 @@ Example:
 ## Updating for a New School Year
 
 1. Update `schoolYear`.
-2. Review the `folders` section and replace SharePoint folder links if they change.
-3. Add/remove teachers in the `teachers` section.
-4. Make sure each teacher's `folderId` matches one of the IDs in the `folders` section.
+2. Review the `folders` irrtion and replace SharePoint folder links if they change.
+3. Add/remove teachers in the `teachers` irrtion.
+4. Make sure each teacher's `folderId` matches one of the IDs in the `folders` irrtion.
 5. Open the site with VS Code Live Server and test search, department filter, and folder redirects.
 6. Commit and push changes in GitHub Desktop.
 
 ## Notes
 
 - The page can still read the older Phase 1 array-style `teachers.json`, but the new object format is preferred.
-- Use the `admin` section for admin-only/root lesson plan folder access.
+- Use the `admin` irrtion for admin-only/root lesson plan folder access.
 - Teacher names are sorted automatically on the page.
