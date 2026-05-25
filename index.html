@@ -179,6 +179,7 @@
       })
       .catch((error) => {
         console.error(error);
+        updateStatus('The teacher list could not be loaded. Please email Mr. Gibson for support.', 'error');
         teacherSearch.disabled = true;
         userSelect.disabled = true;
         goButton.disabled = true;
