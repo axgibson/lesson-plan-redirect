@@ -31,7 +31,7 @@ body {
 }
 
 .portal-card {
-  width: min(100%, 620px);
+  width: min(100%, 720px);
   padding: 34px;
   border: 2px solid var(--black);
   border-radius: 28px;
@@ -75,6 +75,18 @@ h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1;
   color: var(--black);
+}
+
+.year-pill {
+  display: inline-flex;
+  margin: 10px 0 0;
+  padding: 6px 12px;
+  border: 2px solid var(--black);
+  border-radius: 999px;
+  background: var(--gold);
+  color: var(--black);
+  font-size: 0.82rem;
+  font-weight: 900;
 }
 
 .intro-text {
@@ -188,6 +200,37 @@ select:disabled,
   font-size: 0.92rem;
 }
 
+.folder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.folder-card {
+  padding: 12px 14px;
+  border: 2px solid var(--black);
+  border-radius: 16px;
+  background: var(--white);
+  box-shadow: 4px 4px 0 var(--gold);
+}
+
+.folder-card strong,
+.folder-card span {
+  display: block;
+}
+
+.folder-card strong {
+  font-size: 0.96rem;
+}
+
+.folder-card span {
+  margin-top: 3px;
+  color: var(--charcoal);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
 .support-box {
   margin-top: 24px;
   padding: 18px;
@@ -238,5 +281,9 @@ select:disabled,
   .logo {
     width: 84px;
     height: 84px;
+  }
+
+  .folder-grid {
+    grid-template-columns: 1fr;
   }
 }
