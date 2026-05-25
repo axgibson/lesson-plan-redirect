@@ -1,55 +1,188 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Staff Submission Portal</title>
-  <link rel="icon" type="image/png" href="Shield.png">
-  <link rel="stylesheet" href="style.css">
+  <title>Camp Creek Lesson Plan Portal</title>
+  <link rel="icon" type="image/png" href="Shield.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <img src="Inverted-Shield.png" alt="Camp Creek Logo" class="logo" />
-  <h1>Welcome to the Staff Submission Portal</h1>
- <p>Please select your name to access your lesson plan folder.</p>
+  <main class="page-shell">
+    <section class="portal-card" aria-labelledby="pageTitle">
+      <div class="brand-row">
+        <img src="Inverted-Shield.png" alt="Camp Creek Middle School logo" class="logo" />
+        <div class="brand-text">
+          <p class="eyebrow">Camp Creek Middle School</p>
+          <h1 id="pageTitle">Lesson Plan Portal</h1>
+        </div>
+      </div>
 
-<label for="userSelect" style="font-weight: bold; display: block; margin-bottom: 8px;">
-  Teacher Name:
-</label>
-<select id="userSelect">
-  <option value="" disabled selected>-- Select Your Name --</option>
-</select>
- <script>
-  fetch('teachers.json')
-    .then(response => response.json())
-    .then(data => {
-      const select = document.getElementById("userSelect");
+      <p class="intro-text">
+        Select your name below to open your lesson plan folder. Review your selection before continuing.
+      </p>
 
-      // Sort the list alphabetically by name (already in Last, First format)
-      data.sort((a, b) => a.name.localeCompare(b.name));
+      <div id="statusMessage" class="status-message" role="status" aria-live="polite">
+        Loading teacher list...
+      </div>
 
-      data.forEach(teacher => {
-        const option = document.createElement("option");
+      <form id="portalForm" class="selector-panel">
+        <label for="teacherSearch">Search by name</label>
+        <input
+          id="teacherSearch"
+          class="teacher-search"
+          type="search"
+          placeholder="Start typing your last name..."
+          autocomplete="off"
+          disabled
+        />
+
+        <label for="userSelect">Teacher name</label>
+        <select id="userSelect" disabled>
+          <option value="" selected>-- Select Your Name --</option>
+        </select>
+
+        <button id="goButton" class="primary-button" type="submit" disabled>
+          Open Lesson Plan Folder
+        </button>
+      </form>
+
+      <div id="selectedTeacher" class="selected-teacher" hidden></div>
+
+      <div class="support-box">
+        <p>Don&rsquo;t see your name or need your folder link updated?</p>
+        <a href="mailto:gibsona4@fultonschools.org?subject=Lesson%20Plan%20Portal%20Support" class="support-link">
+          Email Mr. Gibson
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const teacherSearch = document.getElementById('teacherSearch');
+    const userSelect = document.getElementById('userSelect');
+    const goButton = document.getElementById('goButton');
+    const portalForm = document.getElementById('portalForm');
+    const statusMessage = document.getElementById('statusMessage');
+    const selectedTeacher = document.getElementById('selectedTeacher');
+
+    let teachers = [];
+
+    function normalize(value) {
+      return String(value || '').toLowerCase().trim();
+    }
+
+    function getEmailDisplay(email) {
+      if (Array.isArray(email)) {
+        return email.join(', ');
+      }
+
+      return email || 'Email not listed';
+    }
+
+    function updateStatus(message, type = 'info') {
+      statusMessage.textContent = message;
+      statusMessage.className = `status-message ${type}`;
+    }
+
+    function clearOptions() {
+      userSelect.innerHTML = '<option value="" selected>-- Select Your Name --</option>';
+    }
+
+    function renderTeacherOptions(list) {
+      clearOptions();
+
+      list.forEach((teacher, index) => {
+        const option = document.createElement('option');
         option.value = teacher.folder;
         option.textContent = teacher.name;
-        select.appendChild(option);
+        option.dataset.index = String(index);
+        option.dataset.email = getEmailDisplay(teacher.email);
+        userSelect.appendChild(option);
       });
 
- select.addEventListener("change", function () {
-  const folderUrl = this.value;
-  if (folderUrl) {
-    window.location.href = folderUrl;
-  } else {
-    alert("Sorry, we couldn't find your folder. Please contact Mr. Gibson.");
-  }
-});
-});
+      userSelect.disabled = list.length === 0;
+      goButton.disabled = true;
+      selectedTeacher.hidden = true;
 
-</script>
-  <p style="margin-top: 20px;">
-  <a href="mailto:gibsona4@fultonschools.org" class="support-link">
-    Don't see your name? Click here to email Mr. Gibson
-  </a>
-</p>
+      if (teachers.length > 0) {
+        teacherSearch.disabled = false;
+      }
+    }
+
+    function filterTeachers() {
+      const searchTerm = normalize(teacherSearch.value);
+      const filteredTeachers = teachers.filter((teacher) => {
+        const name = normalize(teacher.name);
+        const email = normalize(getEmailDisplay(teacher.email));
+        return name.includes(searchTerm) || email.includes(searchTerm);
+      });
+
+      renderTeacherOptions(filteredTeachers);
+
+      if (searchTerm && filteredTeachers.length === 0) {
+        updateStatus('No matching names found. Check spelling or email Mr. Gibson for support.', 'warning');
+      } else {
+        updateStatus(`${filteredTeachers.length} name${filteredTeachers.length === 1 ? '' : 's'} available.`, 'success');
+      }
+    }
+
+    function handleSelectionChange() {
+      const selectedOption = userSelect.options[userSelect.selectedIndex];
+      const hasSelection = Boolean(userSelect.value);
+
+      goButton.disabled = !hasSelection;
+
+      if (hasSelection) {
+        selectedTeacher.hidden = false;
+        selectedTeacher.innerHTML = `
+          <strong>Selected:</strong> ${selectedOption.textContent}<br>
+          <span>${selectedOption.dataset.email}</span>
+        `;
+      } else {
+        selectedTeacher.hidden = true;
+        selectedTeacher.textContent = '';
+      }
+    }
+
+    portalForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const folderUrl = userSelect.value;
+
+      if (!folderUrl) {
+        updateStatus('Please select your name before continuing.', 'warning');
+        return;
+      }
+
+      window.location.href = folderUrl;
+    });
+
+    teacherSearch.addEventListener('input', filterTeachers);
+    userSelect.addEventListener('change', handleSelectionChange);
+
+    fetch('teachers.json', { cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Teacher list could not be loaded.');
+        }
+
+        return response.json();
+      })
+      .then((data) => {
+        teachers = data
+          .filter((teacher) => teacher.name && teacher.folder)
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        renderTeacherOptions(teachers);
+        updateStatus(`${teachers.length} names loaded.`, 'success');
+      })
+      .catch((error) => {
+        console.error(error);
+        teacherSearch.disabled = true;
+        userSelect.disabled = true;
+        goButton.disabled = true;
+      });
+  </script>
 </body>
 </html>
