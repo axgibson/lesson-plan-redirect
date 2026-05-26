@@ -268,7 +268,41 @@
         admin: legacyAdmin
       };
     }
+function hydrateStaffHubData(data) {
+  const folders = Object.entries(data.contentFolders || {}).map(([content, url]) => {
+    const id = content.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
+    return {
+      id,
+      label: content,
+      url
+    };
+  });
+
+  const teachers = [];
+
+  (data.staff || []).forEach((staffMember) => {
+    (staffMember.folders || []).forEach((folder) => {
+      const folderId = folder.content.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+      teachers.push({
+        name: staffMember.displayName || `${staffMember.firstName || ''} ${staffMember.lastName || ''}`.trim(),
+        email: staffMember.email || '',
+        folderId
+      });
+    });
+  });
+
+  return {
+    schoolName: 'Camp Creek Middle School',
+    portalTitle: 'Lesson Plan Portal',
+    schoolYear: '2026-2027',
+    supportEmail: 'gibsona4@fultonschools.org',
+    folders,
+    teachers,
+    admin: []
+  };
+}
     portalForm.addEventListener('submit', (event) => {
       event.preventDefault();
 
@@ -286,7 +320,7 @@
     departmentFilter.addEventListener('change', updateTeacherList);
     userSelect.addEventListener('change', handleSelectionChange);
 
-    fetch('teachers.json', { cache: 'no-store' })
+    fetch('staff_hub_teachers.json', { cache: 'no-store' })
       .then((response) => {
         if (!response.ok) {
           throw new Error('Teacher list could not be loaded.');
@@ -295,7 +329,13 @@
         return response.json();
       })
       .then((data) => {
-        portalData = Array.isArray(data) ? hydrateLegacyData(data) : data;
+        if (Array.isArray(data)) {
+  portalData = hydrateLegacyData(data);
+} else if (data.contentFolders && data.staff) {
+  portalData = hydrateStaffHubData(data);
+} else {
+  portalData = data;
+}
         folderLookup = new Map(portalData.folders.map((folder) => [folder.id, folder]));
         teachers = [...(portalData.teachers || []), ...(portalData.admin || [])]
           .filter((teacher) => teacher.name && teacher.folderId && getFolder(teacher.folderId).url)
