@@ -1,49 +1,3 @@
-{
-  "metadata": {
-    "generatedFor": "Camp Creek Staff Hub",
-    "sourceWorkbook": "Teacher Emails for Staff Hub.xlsx",
-    "sourceSheet": "Staff Sumbision Directory",
-    "generatedDate": "2026-05-25",
-    "notes": [
-      "Blank emails are preserved for staff who do not yet have district accounts.",
-      "Teachers with multiple content assignments are grouped only when the same first name, last name, and email match.",
-      "Rows with missing names or emails are retained and listed in audit.incompleteRows."
-    ]
-  },
-  "contentFolders": {
-    "Connections": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj",
-    "ELA": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi",
-    "ESOL": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ESOL?csf=1&web=1&e=Kyvhha",
-    "Math": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp",
-    "Science": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn",
-    "MOID": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo",
-    "Social Studies": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg",
-    "World Languages": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/World%20Languages?csf=1&web=1&e=1r5Fnv",
-    "Reading": "https://fultonk12.sharepoint.com/sites/campcreekstaffhub2.0/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcampcreekstaffhub2%2E0%2FShared%20Documents%2FLesson%20Plans%2FReading&viewid=9e18ca7d%2D64e9%2D4083%2Da3f7%2Dfbbaa082b342&csf=1&CID=81a3a750%2D88fa%2D4cb7%2D98c9%2Db5de2293ecc3&FolderCTID=0x01200091B77B8EA02BF044A7899C78B4CF6D69"
-  },
-  "staff": [
-    {
-      "id": "krystal-rainey-raineyk1-fultonschools-org",
-      "firstName": "Krystal",
-      "lastName": "Rainey",
-      "displayName": "Krystal Rainey",
-      "email": "raineyk1@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        2
-      ]
-    },
-    {
-      "id": "simone-millington-motley-millingtonms-fultonschools-org",
-      "firstName": "Simone",
-      "lastName": "Millington-Motley",
-      "displayName": "Simone Millington-Motley",
       "email": "millingtonms@fultonschools.org",
       "grades": [],
       "folders": [
@@ -53,424 +7,7 @@
         }
       ],
       "sourceRows": [
-        3
-      ]
-    },
-    {
-      "id": "tafia-graves-gravest1-fultonschools-org",
-      "firstName": "Tafia",
-      "lastName": "Graves",
-      "displayName": "Tafia Graves",
-      "email": "gravest1@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        4
-      ]
-    },
-    {
-      "id": "stephen-mckoy-mckoys-fultonschools-org",
-      "firstName": "Stephen",
-      "lastName": "McKoy",
-      "displayName": "Stephen McKoy",
-      "email": "mckoys@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        5
-      ]
-    },
-    {
-      "id": "tamika-freeman-freemant2-fultonschools-org",
-      "firstName": "Tamika",
-      "lastName": "Freeman",
-      "displayName": "Tamika Freeman",
-      "email": "freemant2@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        6
-      ]
-    },
-    {
-      "id": "patricia-seawright-seawrightp-fultonschools-org",
-      "firstName": "Patricia",
-      "lastName": "Seawright",
-      "displayName": "Patricia Seawright",
-      "email": "seawrightp@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        7
-      ]
-    },
-    {
-      "id": "stephen-greogory-gregorys1-fultonschools-org",
-      "firstName": "Stephen",
-      "lastName": "Greogory",
-      "displayName": "Stephen Greogory",
-      "email": "gregorys1@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Connections",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
-        }
-      ],
-      "sourceRows": [
-        8
-      ]
-    },
-    {
-      "id": "joseph-harris-harrisj13-fultonschools-org",
-      "firstName": "Joseph",
-      "lastName": "Harris",
-      "displayName": "Joseph Harris",
-      "email": "harrisj13@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        9
-      ]
-    },
-    {
-      "id": "brenda-robinson-robinsonb1-fultonschools-org",
-      "firstName": "Brenda",
-      "lastName": "Robinson",
-      "displayName": "Brenda Robinson",
-      "email": "robinsonb1@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        10
-      ]
-    },
-    {
-      "id": "tereon-gilliam-gilliamt-fultonschools-org",
-      "firstName": "Tereon",
-      "lastName": "Gilliam",
-      "displayName": "Tereon Gilliam",
-      "email": "gilliamt@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        11
-      ]
-    },
-    {
-      "id": "shani-buchanan-freeman-buchanans-fultonschools-org",
-      "firstName": "Shani",
-      "lastName": "Buchanan-Freeman",
-      "displayName": "Shani Buchanan-Freeman",
-      "email": "buchanans@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        12
-      ]
-    },
-    {
-      "id": "jazmyn-johnson-johnsonj30-fultonschools-org",
-      "firstName": "Jazmyn",
-      "lastName": "Johnson",
-      "displayName": "Jazmyn Johnson",
-      "email": "johnsonj30@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        13
-      ]
-    },
-    {
-      "id": "jessica-cline-clinej-fultonschools-org",
-      "firstName": "Jessica",
-      "lastName": "Cline",
-      "displayName": "Jessica Cline",
-      "email": "clinej@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        14
-      ]
-    },
-    {
-      "id": "erica-womack-womacke3-fultonschools-org",
-      "firstName": "Erica",
-      "lastName": "Womack",
-      "displayName": "Erica Womack",
-      "email": "womacke3@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "ESOL",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ESOL?csf=1&web=1&e=Kyvhha"
-        }
-      ],
-      "sourceRows": [
-        15
-      ]
-    },
-    {
-      "id": "jessica-bailey-baileyj7-fultonschools-org",
-      "firstName": "Jessica",
-      "lastName": "Bailey",
-      "displayName": "Jessica Bailey",
-      "email": "baileyj7@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        16
-      ]
-    },
-    {
-      "id": "sequoia-cade-cades-fultonschools-org",
-      "firstName": "Sequoia",
-      "lastName": "Cade",
-      "displayName": "Sequoia Cade",
-      "email": "cades@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        17
-      ]
-    },
-    {
-      "id": "shelia-emerson-emersons-fultonschools-org",
-      "firstName": "Shelia",
-      "lastName": "Emerson",
-      "displayName": "Shelia Emerson",
-      "email": "emersons@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        18
-      ]
-    },
-    {
-      "id": "candace-afoakwah-afoakwahc-fultonschools-org",
-      "firstName": "Candace",
-      "lastName": "Afoakwah",
-      "displayName": "Candace Afoakwah",
-      "email": "afoakwahc@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        19
-      ]
-    },
-    {
-      "id": "johnson-karen-johnsonk3-fultonschools-org",
-      "firstName": "Johnson",
-      "lastName": "Karen",
-      "displayName": "Johnson Karen",
-      "email": "johnsonk3@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        20
-      ]
-    },
-    {
-      "id": "mark-smith-smithm10-fultonschools-org",
-      "firstName": "Mark",
-      "lastName": "Smith",
-      "displayName": "Mark Smith",
-      "email": "smithm10@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        21
-      ]
-    },
-    {
-      "id": "sacajawea-millsap-millsaps2-fultonschools-org",
-      "firstName": "Sacajawea",
-      "lastName": "Millsap",
-      "displayName": "Sacajawea Millsap",
-      "email": "millsaps2@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        22
-      ]
-    },
-    {
-      "id": "brittany-mccoy-mccoyb-fultonschools-org",
-      "firstName": "Brittany",
-      "lastName": "McCoy",
-      "displayName": "Brittany McCoy",
-      "email": "mccoyb@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "MOID",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
-        }
-      ],
-      "sourceRows": [
-        23
-      ]
-    },
-    {
-      "id": "carolyn-mccoy-mccoyc1-fultonschools-org",
-      "firstName": "Carolyn",
-      "lastName": "McCoy",
-      "displayName": "Carolyn McCoy",
-      "email": "mccoyc1@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "MOID",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
-        }
-      ],
-      "sourceRows": [
-        24
-      ]
-    },
-    {
-      "id": "rashad-thomas-thomasr4-fultonschools-org",
-      "firstName": "Rashad",
-      "lastName": "Thomas",
-      "displayName": "Rashad Thomas",
-      "email": "thomasr4@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "MOID",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
-        }
-      ],
-      "sourceRows": [
-        25
-      ]
-    },
-    {
-      "id": "fredrick-worrell-worrellf-fultonschools-org",
-      "firstName": "Fredrick",
-      "lastName": "Worrell",
-      "displayName": "Fredrick Worrell",
-      "email": "worrellf@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "MOID",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
-        }
-      ],
-      "sourceRows": [
-        26
+        51
       ]
     },
     {
@@ -487,214 +24,7 @@
         }
       ],
       "sourceRows": [
-        27
-      ]
-    },
-    {
-      "id": "annilia-wright-wrighta8-fultonschools-org",
-      "firstName": "Annilia",
-      "lastName": "Wright",
-      "displayName": "Annilia Wright",
-      "email": "wrighta8@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        28
-      ]
-    },
-    {
-      "id": "terri-england-englandt-fultonschools-org",
-      "firstName": "Terri",
-      "lastName": "England",
-      "displayName": "Terri England",
-      "email": "englandt@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        29
-      ]
-    },
-    {
-      "id": "dagmah-alexander-carter-alexanderd-fultonschools-org",
-      "firstName": "Dagmah",
-      "lastName": "Alexander-Carter",
-      "displayName": "Dagmah Alexander-Carter",
-      "email": "alexanderd@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        30
-      ]
-    },
-    {
-      "id": "neil-cole-colen-fultonschools-org",
-      "firstName": "Neil",
-      "lastName": "Cole",
-      "displayName": "Neil Cole",
-      "email": "colen@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        31
-      ]
-    },
-    {
-      "id": "dionne-belser-belser-fultonschools-org",
-      "firstName": "Dionne",
-      "lastName": "Belser",
-      "displayName": "Dionne Belser",
-      "email": "belser@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        32
-      ]
-    },
-    {
-      "id": "teryon-parker-parkert9-fultonschools-org",
-      "firstName": "Teryon",
-      "lastName": "Parker",
-      "displayName": "Teryon Parker",
-      "email": "parkert9@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        33
-      ]
-    },
-    {
-      "id": "tonia-edmond-edmondts-fultonschools-org",
-      "firstName": "Tonia",
-      "lastName": "Edmond",
-      "displayName": "Tonia Edmond",
-      "email": "edmondts@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        34
-      ]
-    },
-    {
-      "id": "leon-gray-grayll1-fultonschools-org",
-      "firstName": "Leon",
-      "lastName": "Gray",
-      "displayName": "Leon Gray",
-      "email": "grayll1@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        35
-      ]
-    },
-    {
-      "id": "lashaun-lang-langl-fultonschools-org",
-      "firstName": "LaShaun",
-      "lastName": "Lang",
-      "displayName": "LaShaun Lang",
-      "email": "langl@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        36
-      ]
-    },
-    {
-      "id": "chemily-thomas-thomasc13-fultonschools-org",
-      "firstName": "Chemily",
-      "lastName": "Thomas",
-      "displayName": "Chemily Thomas",
-      "email": "thomasc13@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        37
-      ]
-    },
-    {
-      "id": "francys-brock-brockf-fultonschools-org",
-      "firstName": "Francys",
-      "lastName": "Brock",
-      "displayName": "Francys Brock",
-      "email": "brockf@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "World Languages",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/World%20Languages?csf=1&web=1&e=1r5Fnv"
-        }
-      ],
-      "sourceRows": [
-        38
+        52
       ]
     },
     {
@@ -711,99 +41,15 @@
         }
       ],
       "sourceRows": [
-        39
+        53
       ]
     },
     {
-      "id": "sofia-edwards-early-edwardsearls-fultonschools-org",
-      "firstName": "Sofia",
-      "lastName": "Edwards-Early",
-      "displayName": "Sofia Edwards-Early",
-      "email": "edwardsearls@fultonschools.org",
-      "grades": [],
-      "folders": [
-        {
-          "content": "World Languages",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/World%20Languages?csf=1&web=1&e=1r5Fnv"
-        }
-      ],
-      "sourceRows": [
-        40
-      ]
-    },
-    {
-      "id": "katie-blount-blountk-fultonschools-org",
-      "firstName": "Katie",
-      "lastName": "Blount",
-      "displayName": "Katie Blount",
-      "email": "blountk@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        },
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        41,
-        47
-      ]
-    },
-    {
-      "id": "monica-anderson-andersonm8-fultonschools-org",
-      "firstName": "Monica",
-      "lastName": "Anderson",
-      "displayName": "Monica Anderson",
-      "email": "andersonm8@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        42
-      ]
-    },
-    {
-      "id": "norman-west-westn1-fultonschools-org",
-      "firstName": "Norman",
-      "lastName": "West",
-      "displayName": "Norman West",
-      "email": "westn1@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        },
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        43,
-        46
-      ]
-    },
-    {
-      "id": "lisa-leonard-leonardl1-fultonschools-org",
-      "firstName": "Lisa",
-      "lastName": "Leonard",
-      "displayName": "Lisa Leonard",
-      "email": "leonardl1@fultonschools.org",
+      "id": "krystal-rainey-raineyk1-fultonschools-org",
+      "firstName": "Krystal",
+      "lastName": "Rainey",
+      "displayName": "Krystal Rainey",
+      "email": "raineyk1@fultonschools.org",
       "grades": [],
       "folders": [
         {
@@ -812,15 +58,49 @@
         }
       ],
       "sourceRows": [
-        44
+        54
       ]
     },
     {
-      "id": "rosalee-drysdale-johnson-johnsonr19-fultonschools-org",
-      "firstName": "Rosalee",
-      "lastName": "Drysdale-Johnson",
-      "displayName": "Rosalee Drysdale-Johnson",
-      "email": "JohnsonR19@fultonschools.org",
+      "id": "patricia-seawright-seawrightp-fultonschools-org",
+      "firstName": "Patricia",
+      "lastName": "Seawright",
+      "displayName": "Patricia Seawright",
+      "email": "seawrightp@fultonschools.org",
+      "grades": [],
+      "folders": [
+        {
+          "content": "Connections",
+          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Connections?csf=1&web=1&e=thQmmj"
+        }
+      ],
+      "sourceRows": [
+        55
+      ]
+    },
+    {
+      "id": "rashad-thomas-thomasr4-fultonschools-org",
+      "firstName": "Rashad",
+      "lastName": "Thomas",
+      "displayName": "Rashad Thomas",
+      "email": "thomasr4@fultonschools.org",
+      "grades": [],
+      "folders": [
+        {
+          "content": "MOID",
+          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
+        }
+      ],
+      "sourceRows": [
+        56
+      ]
+    },
+    {
+      "id": "erica-womack-womacke3-fultonschools-org",
+      "firstName": "Erica",
+      "lastName": "Womack",
+      "displayName": "Erica Womack",
+      "email": "womacke3@fultonschools.org",
       "grades": [],
       "folders": [
         {
@@ -829,272 +109,43 @@
         }
       ],
       "sourceRows": [
-        45
-      ]
-    },
-    {
-      "id": "maat-ross-rossm2-fultonschools-org",
-      "firstName": "Maat",
-      "lastName": "Ross",
-      "displayName": "Maat Ross",
-      "email": "rossm2@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        48
-      ]
-    },
-    {
-      "id": "denise-moore-row-49",
-      "firstName": "Denise",
-      "lastName": "Moore",
-      "displayName": "Denise Moore",
-      "email": "",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        49
-      ]
-    },
-    {
-      "id": "dalkieth-thomas-thomasd24-fultonschools-org",
-      "firstName": "Dalkieth",
-      "lastName": "Thomas",
-      "displayName": "Dalkieth Thomas",
-      "email": "thomasd24@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        50
-      ]
-    },
-    {
-      "id": "april-mcbryde-thomasd24-fultonschools-org",
-      "firstName": "April",
-      "lastName": "McBryde",
-      "displayName": "April McBryde",
-      "email": "thomasd24@fultonschools.org",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        51
-      ]
-    },
-    {
-      "id": "row-52",
-      "firstName": "",
-      "lastName": "",
-      "displayName": "",
-      "email": "",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Social Studies",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-        }
-      ],
-      "sourceRows": [
-        52
-      ]
-    },
-    {
-      "id": "row-53",
-      "firstName": "",
-      "lastName": "",
-      "displayName": "",
-      "email": "",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Science",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-        }
-      ],
-      "sourceRows": [
-        53
-      ]
-    },
-    {
-      "id": "leatrice-parker-row-54",
-      "firstName": "Leatrice",
-      "lastName": "Parker",
-      "displayName": "Leatrice Parker",
-      "email": "",
-      "grades": [
-        "7"
-      ],
-      "folders": [
-        {
-          "content": "Reading",
-          "folderUrl": "https://fultonk12.sharepoint.com/sites/campcreekstaffhub2.0/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcampcreekstaffhub2%2E0%2FShared%20Documents%2FLesson%20Plans%2FReading&viewid=9e18ca7d%2D64e9%2D4083%2Da3f7%2Dfbbaa082b342&csf=1&CID=81a3a750%2D88fa%2D4cb7%2D98c9%2Db5de2293ecc3&FolderCTID=0x01200091B77B8EA02BF044A7899C78B4CF6D69"
-        }
-      ],
-      "sourceRows": [
-        54
-      ]
-    },
-    {
-      "id": "noni-norman-normann1-fultonschools-org",
-      "firstName": "Noni",
-      "lastName": "Norman",
-      "displayName": "Noni Norman",
-      "email": "normann1@fultonschools.org",
-      "grades": [
-        "6"
-      ],
-      "folders": [
-        {
-          "content": "Reading",
-          "folderUrl": "https://fultonk12.sharepoint.com/sites/campcreekstaffhub2.0/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcampcreekstaffhub2%2E0%2FShared%20Documents%2FLesson%20Plans%2FReading&viewid=9e18ca7d%2D64e9%2D4083%2Da3f7%2Dfbbaa082b342&csf=1&CID=81a3a750%2D88fa%2D4cb7%2D98c9%2Db5de2293ecc3&FolderCTID=0x01200091B77B8EA02BF044A7899C78B4CF6D69"
-        }
-      ],
-      "sourceRows": [
-        55
-      ]
-    },
-    {
-      "id": "sheryl-kennedy-kennedys2-fultonschools-org",
-      "firstName": "Sheryl",
-      "lastName": "Kennedy",
-      "displayName": "Sheryl Kennedy",
-      "email": "kennedys2@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "ELA",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
-        }
-      ],
-      "sourceRows": [
-        56
-      ]
-    },
-    {
-      "id": "jessica-jones-jonesj23-fultonschools-org",
-      "firstName": "Jessica",
-      "lastName": "Jones",
-      "displayName": "Jessica Jones",
-      "email": "jonesj23@fultonschools.org",
-      "grades": [
-        "8"
-      ],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
         57
       ]
     },
     {
-      "id": "adrian-austin-austina5-fultonschools-org",
-      "firstName": "Adrian",
-      "lastName": "Austin",
-      "displayName": "Adrian Austin",
-      "email": "austina5@fultonschools.org",
-      "grades": [
-        "8"
-      ],
+      "id": "fredrick-worrell-worrellf-fultonschools-org",
+      "firstName": "Fredrick",
+      "lastName": "Worrell",
+      "displayName": "Fredrick Worrell",
+      "email": "worrellf@fultonschools.org",
+      "grades": [],
       "folders": [
         {
-          "content": "Reading",
-          "folderUrl": "https://fultonk12.sharepoint.com/sites/campcreekstaffhub2.0/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcampcreekstaffhub2%2E0%2FShared%20Documents%2FLesson%20Plans%2FReading&viewid=9e18ca7d%2D64e9%2D4083%2Da3f7%2Dfbbaa082b342&csf=1&CID=81a3a750%2D88fa%2D4cb7%2D98c9%2Db5de2293ecc3&FolderCTID=0x01200091B77B8EA02BF044A7899C78B4CF6D69"
+          "content": "MOID",
+          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/SEC?csf=1&web=1&e=FN6hyo"
         }
       ],
       "sourceRows": [
         58
       ]
-    },
-    {
-      "id": "philip-thompson-row-59",
-      "firstName": "Philip",
-      "lastName": "Thompson",
-      "displayName": "Philip Thompson",
-      "email": "",
-      "grades": [],
-      "folders": [
-        {
-          "content": "Math",
-          "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
-        }
-      ],
-      "sourceRows": [
-        59
-      ]
     }
   ],
   "audit": {
-    "rawAssignmentRows": 58,
-    "staffRecords": 56,
+    "rawAssignmentRows": 57,
+    "staffRecords": 54,
     "incompleteRows": [
       {
-        "sourceRow": 49,
+        "sourceRow": 12,
         "grade": "6",
-        "lastName": "Moore",
-        "firstName": "Denise",
-        "displayName": "Denise Moore",
+        "lastName": "",
+        "firstName": "",
+        "displayName": "",
         "email": "",
         "content": "ELA",
         "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/ELA?csf=1&web=1&e=7AmNsi"
       },
       {
-        "sourceRow": 52,
-        "grade": "7",
-        "lastName": "",
-        "firstName": "",
-        "displayName": "",
-        "email": "",
-        "content": "Social Studies",
-        "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Social%20Studies?csf=1&web=1&e=YNeJIg"
-      },
-      {
-        "sourceRow": 53,
-        "grade": "7",
-        "lastName": "",
-        "firstName": "",
-        "displayName": "",
-        "email": "",
-        "content": "Science",
-        "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Science?csf=1&web=1&e=n0rVtn"
-      },
-      {
-        "sourceRow": 54,
+        "sourceRow": 24,
         "grade": "7",
         "lastName": "Parker",
         "firstName": "Leatrice",
@@ -1102,35 +153,8 @@
         "email": "",
         "content": "Reading",
         "folderUrl": "https://fultonk12.sharepoint.com/sites/campcreekstaffhub2.0/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fcampcreekstaffhub2%2E0%2FShared%20Documents%2FLesson%20Plans%2FReading&viewid=9e18ca7d%2D64e9%2D4083%2Da3f7%2Dfbbaa082b342&csf=1&CID=81a3a750%2D88fa%2D4cb7%2D98c9%2Db5de2293ecc3&FolderCTID=0x01200091B77B8EA02BF044A7899C78B4CF6D69"
-      },
-      {
-        "sourceRow": 59,
-        "grade": "",
-        "lastName": "Thompson",
-        "firstName": "Philip",
-        "displayName": "Philip Thompson",
-        "email": "",
-        "content": "Math",
-        "folderUrl": "https://fultonk12.sharepoint.com/:f:/r/sites/campcreekstaffhub2.0/Shared%20Documents/Lesson%20Plans/Math?csf=1&web=1&e=XPZmEp"
       }
     ],
-    "duplicateEmailsAcrossDifferentStaffRecords": {
-      "thomasd24@fultonschools.org": [
-        {
-          "displayName": "Dalkieth Thomas",
-          "sourceRows": [
-            50
-          ],
-          "folderCount": 1
-        },
-        {
-          "displayName": "April McBryde",
-          "sourceRows": [
-            51
-          ],
-          "folderCount": 1
-        }
-      ]
-    }
+    "duplicateEmailsAcrossDifferentStaffRecords": {}
   }
 }
